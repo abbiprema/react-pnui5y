@@ -5,6 +5,8 @@ import Form from './Form';
 import Header from './Header';
 import Feedback from './Feedback';
 import Addition from './Addition';
+import Substraction from './Substraction';
+import Division from './Division';
 
 export default function App() {
   const [getAddress, setAddress] = useState('');
@@ -18,7 +20,10 @@ export default function App() {
       <div>
         <Feedback getAddress={getAddress} addressHandler={addressHandler} />
       </div>
-      <Contact />
+      <Addition />
+      <Substraction />
+      <Multiplication />
+      <Division />
     </div>
   );
 }

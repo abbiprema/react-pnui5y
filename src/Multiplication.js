@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Addition.css';
+import './Substraction.css';
 
 function Add() {
   const [getOne, setOne] = useState(0);
@@ -7,8 +7,8 @@ function Add() {
   const [getResult, setResult] = useState(0);
 
   const addition = () => {
-    alert('addition');
-    setResult(Number(getOne) + Number(getTwo));
+    alert('Multiplication');
+    setResult(Number(getOne) * Number(getTwo));
   };
 
   const onChangeHandlerOne = (event) => {
@@ -21,7 +21,7 @@ function Add() {
 
   return (
     <div>
-      <div className="contactBox">Addition:{getResult}</div>
+      <div className="contactBox"> Multiplication:{getResult}</div>
       The value of A:
       <input type="text" onChange={onChangeHandlerOne} />
       The value of B:
@@ -30,4 +30,4 @@ function Add() {
     </div>
   );
 }
-export default Addition;
+export default Multiplication;
