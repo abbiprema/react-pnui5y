@@ -16,7 +16,7 @@ export default function App() {
   };
 
   return (
-    <div className="Addition.container">
+    <div className="grid-container">
       <div>
         <Feedback getAddress={getAddress} addressHandler={addressHandler} />
       </div>
