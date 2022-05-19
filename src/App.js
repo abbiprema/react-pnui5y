@@ -4,7 +4,7 @@ import Card from './Card';
 import Form from './Form';
 import Header from './Header';
 import Feedback from './Feedback';
-import Add from './Add';
+import Addition from './Addition';
 
 export default function App() {
   const [getAddress, setAddress] = useState('');

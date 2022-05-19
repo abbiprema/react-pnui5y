@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Add.css';
+import './Addition.css';
 
 function Add() {
   const [getOne, setOne] = useState(0);
@@ -26,17 +26,11 @@ function Add() {
       <input type="text" onChange={onChangeHandlerOne} />
       The value of B:
       <input type="text" onChange={onChangeHandlerTwo} />
+
+      
       <button onClick={addition}>Click</button>
     </div>
   );
 }
 
 export default Contact;
-
-
-
-
-
-
-
-
