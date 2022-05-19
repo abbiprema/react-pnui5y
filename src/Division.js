@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Substraction.css';
+import './Division.css';
 
 function Add() {
   const [getOne, setOne] = useState(0);
