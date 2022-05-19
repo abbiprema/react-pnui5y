@@ -1,40 +1,28 @@
-import React, { useState } from 'react';
+import React ,{useState} from 'react';
 import './style.css';
 import Card from './Card';
 import Form from './Form';
 import Header from './Header';
 import Feedback from './Feedback';
+import Addition from './Addition';
+
 export default function App() {
-  const [getAddress, setAddress] = useState('BMW Car')
 
-  const addressHandler = (event) => {
-    setAddress(event.target.value);
-  };
-  const [getAddress, setAddress] = useState('Car2')
+  const [getAddress,setAddress] = useState("abirami22296@gmail.com")
 
-  const addressHandler = (event) => {
-    setAddress(event.target.value);
-  };
-  const [getAddress, setAddress] = useState('Car3')
-
-  const addressHandler = (event) => {
-    setAddress(event.target.value);
-  };
+  const addressHandler=(event)=>{
+    setAddress(event.target.value)
+  }
 
   return (
     <div className="grid-container">
+      <div><Feedback getAddress={getAddress} addressHandler={addressHandler}/></div>
       <div>
-        <Feedback getAddress={getAddress} addressHandler={addressHandler} />
+      <Card productName={getAddress} color="blue" amount="4000" />
+      <Contact/>
       </div>
-      <div>
-        <Card productName={getAddress} color="blue" amount="4000" />
-      </div>
-      <div>
-        <card productName={getAddress} color="Red" amount="70000" />
-      </div>
-      <div>
-        <card productName={getAddress} color="Yellow" amount="90000" />
-      </div>
+  
+   
     </div>
   );
 }
