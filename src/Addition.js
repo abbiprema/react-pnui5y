@@ -26,11 +26,9 @@ function Add() {
       <input type="text" onChange={onChangeHandlerOne} />
       The value of B:
       <input type="text" onChange={onChangeHandlerTwo} />
-
-      
       <button onClick={addition}>Click</button>
     </div>
   );
 }
 
-export default Contact;
+export default Addition;
