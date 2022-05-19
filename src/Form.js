@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './style.css';
 
 export default function Form(props) {
+  sssss;
   const [getForm, setForm] = useState({
     productName: '',
     productColor: '',
