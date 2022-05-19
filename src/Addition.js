@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Addition.css';
+import './Add.css';
 
-function Addition() {
+function Add() {
   const [getOne, setOne] = useState(0);
   const [getTwo, setTwo] = useState(0);
   const [getResult, setResult] = useState(0);
@@ -31,4 +31,12 @@ function Addition() {
   );
 }
 
-export default Addition;
+export default Contact;
+
+
+
+
+
+
+
+
