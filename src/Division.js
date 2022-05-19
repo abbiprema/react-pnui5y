@@ -7,7 +7,7 @@ function Add() {
   const [getResult, setResult] = useState(0);
 
   const addition = () => {
-    alert('Multiplication');
+    alert('Division');
     setResult(Number(getOne) % Number(getTwo));
   };
 
