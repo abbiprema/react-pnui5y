@@ -26,7 +26,7 @@ function Add() {
       <input type="text" onChange={onChangeHandlerOne} />
       The value of B:
       <input type="text" onChange={onChangeHandlerTwo} />
-      <button onClick={addition}>Click</button>
+      <button onClick={addition}> Submit</button> 
     </div>
   );
 }

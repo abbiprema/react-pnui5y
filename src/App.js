@@ -6,7 +6,9 @@ import Header from './Header';
 import Feedback from './Feedback';
 import Addition from './Addition';
 import Substraction from './Substraction';
+import Multipilication from './Multipilication';
 import Division from './Division';
+import Add from  './Add';
 
 export default function App() {
   const [getAddress, setAddress] = useState('');
@@ -21,7 +23,7 @@ export default function App() {
         <Feedback getAddress={getAddress} addressHandler={addressHandler} />
       </div>
       <Addition />
-      <Substraction />
+      <Substraction/>
       <Multiplication />
       <Division />
     </div>
