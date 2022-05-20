@@ -11,7 +11,7 @@ import Division from './Division';
 import Modulo from './Modulo';
 
 export default function App() {
-  const [getAddress, setAddress] = useState('');
+  const [getAddress, setAddress] = useState('abi@gmail.com');
 
   const addressHandler = (event) => {
     setAddress(event.target.value);
