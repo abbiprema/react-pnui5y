@@ -6,9 +6,9 @@ function Add() {
   const [getTwo, setTwo] = useState(0);
   const [getResult, setResult] = useState(0);
 
-  const addition = () => {
+  const division = () => {
     alert('Division');
-    setResult(Number(getOne) % Number(getTwo));
+    setResult(Number(getOne) / Number(getTwo));
   };
 
   const onChangeHandlerOne = (event) => {

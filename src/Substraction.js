@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './Substraction.css';
 
-function Add() {
+function sub() {
   const [getOne, setOne] = useState(0);
   const [getTwo, setTwo] = useState(0);
   const [getResult, setResult] = useState(0);
 
-  const addition = () => {
+  const sub = () => {
     alert('Substraction');
     setResult(Number(getOne) - Number(getTwo));
   };

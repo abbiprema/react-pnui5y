@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import './Multiplication.css';
+import './Modulo.css';
 
-function mul() {
+function modulol() {
   const [getOne, setOne] = useState(0);
   const [getTwo, setTwo] = useState(0);
   const [getResult, setResult] = useState(0);
 
-  const mul = () => {
-    alert('Multiplication');
-    setResult(Number(getOne) * Number(getTwo));
+  const Modulo = () => {
+    alert('Modulo');
+    setResult(Number(getOne) % Number(getTwo));
   };
 
   const onChangeHandlerOne = (event) => {
@@ -21,7 +21,7 @@ function mul() {
 
   return (
     <div>
-      <div className="contactBox"> Multiplication:{getResult}</div>
+      <div className="contactBox"> Modulo:{getResult}</div>
       The value of A:
       <input type="text" onChange={onChangeHandlerOne} />
       The value of B:
@@ -30,4 +30,4 @@ function mul() {
     </div>
   );
 }
-export default Multiplication;
+export default Modulo;
